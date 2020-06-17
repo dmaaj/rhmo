@@ -7,11 +7,17 @@ to serve run ```php -S localhost:8000```
 - url `POST` ```localhost:8000/account/reserve```
 - params 
 > { accountName:name
+>
 >    customerEmail:test@rhmo.com
+>
 >    customerName:test
+>
 >     customerAccountNumber:0000000
+>
 >     customerBankCode:test
+>
 >     customerAccountNames:test
+>
 >    }```
 
 ### Deactivate Account
