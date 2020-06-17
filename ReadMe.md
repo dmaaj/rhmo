@@ -19,7 +19,7 @@ to serve run ```php -S localhost:8000```
 
 ### Transaction Status
 - url `POST` ```localhost:8000/transaction/status```
-- params ```{ paymentReference:33232832}```
+- params ```{ reference:33232832}```
 
 
 
