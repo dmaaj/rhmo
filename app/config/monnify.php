@@ -1,0 +1,6 @@
+<?php
+
+define('MONNIFY_APIKEY',  'MK_TEST_WD7TZCMQV7');
+define('MONNIFY_APIPASS','H5EQMQSHSURJNQ7UH2R78YAH6UN54ZP7');
+define('MONNIFY_CONTRACTCODE', '2957982769');
+define('MONNIFY_BASE_URL', 'https://sandbox.monnify.com/api/v1/');

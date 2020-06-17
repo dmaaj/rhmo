@@ -1,0 +1,16 @@
+{
+    "name": "maaj/rhmo",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "autoload": {
+        "files": [
+            "app/helpers.php",
+            "app/config/monnify.php"
+        ],
+        "psr-4": {
+            "App\\":"app/"
+        }
+    }
+}
