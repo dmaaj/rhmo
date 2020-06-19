@@ -21,8 +21,8 @@ $router->addRoute('/account/deactivate', function(){
     (new AccountController)->deactivate();
 });
 
-$router->addRoute('/transaction/status/{reference}', function($reference){
-    (new TransactionController)->status($reference);
+$router->addRoute('/transaction/status', function(){
+    (new TransactionController)->status();
 });
 
 $router->execute();
